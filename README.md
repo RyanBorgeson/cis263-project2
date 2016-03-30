@@ -1,2 +1,2 @@
-# cis263-project2
+# CIS263 - Project 2
 Study the relationship between two characteristics of graphs.

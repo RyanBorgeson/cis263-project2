@@ -28,7 +28,7 @@ for d in degseq:
     if (d-2) < dmin:
         dmin = d-2
 
-print (dmin,dmax)
+#print (dmin,dmax)
 
 # Other properties that can be
 # calculated using methods in the networkx package:
@@ -44,12 +44,15 @@ diameter = -1
 if numberConnectedComponents == 1:
     diameter = nx.diameter(b)
 
+#print(diameter, sizeMaxClique)
 
 
 # The maximum clique is returned as a set of nodes
 # max_clique(b)
 maxClique = naa.max_clique(b)
 sizeMaxClique = len(maxClique)
+
+print (diameter, sizeMaxClique)
 
 # The dominating set is returned as a set of nodes
 # min_weighted_dominating_set(b)
